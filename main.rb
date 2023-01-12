@@ -3,8 +3,8 @@ def bubble_sort (array)
         array.each_with_index do |num, idx|
             next_value = array[idx+1]
             if next_value && num > next_value
-            array[idx] = next_value
-            array[idx+1] = num
+                array[idx] = next_value
+                array[idx+1] = num
             end
         end
     end
